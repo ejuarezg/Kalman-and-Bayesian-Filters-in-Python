@@ -1,5 +1,7 @@
 #! /bin/bash
 
+ln -s .. tmp
+
 #echo "merging book..."
 ipython merge_book.py
 
@@ -7,6 +9,6 @@ echo "creating pdf..."
 ipython nbconvert --to latex --template book book.ipynb
 ipython to_pdf.py
 
-mv Kalman_and_Bayesian_Filters_in_Python.pdf ..
+mv book.pdf Kalman_and_Bayesian_Filters_in_Python.pdf
 
-
+unlink tmp
