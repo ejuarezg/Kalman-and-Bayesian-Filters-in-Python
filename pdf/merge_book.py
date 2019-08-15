@@ -61,7 +61,10 @@ if __name__ == '__main__':
              './tmp/Appendix-A-Installation.ipynb',
              './tmp/Appendix-B-Symbols-and-Notations.ipynb',
              './tmp/Appendix-D-HInfinity-Filters.ipynb',
-             './tmp/Appendix-E-Ensemble-Kalman-Filters.ipynb'])
+             './tmp/Appendix-E-Ensemble-Kalman-Filters.ipynb',
+             './tmp/Appendix-G-Designing-Nonlinear-Kalman-Filters.ipynb',
+             './tmp/Appendix-H-Least-Squares-Filters.ipynb',
+             './tmp/Appendix-I-Analytic-Evaluation-of-Performance.ipynb'])
 
 
     #remove text printed for matplotlib charts
